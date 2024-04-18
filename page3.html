@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Особистий кабінет</title>
+    <link rel="stylesheet" href="/Styles/styles.css">
+</head>
+<body>
+<!-- Модальне вікно для реєстрації -->
+<div id="modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Введіть своє ім'я:</h2>
+        <input type="text" id="usernameInput" placeholder="Ваше ім'я">
+        <button id="saveUsernameBtn">Зберегти</button>
+    </div>
+</div>
+    <div class="container">
+        <div id="welcome"></div>
+        <div id="colors">
+            <p>Це ваші збереженні кольри:</p>
+            <table id="colorTable">
+                <thead>
+                    <tr>
+                        <th>Збереженні кольри</th>
+                    </tr>
+                </thead>
+                <tbody id="colorTableBody"></tbody>
+            </table>
+        
+        </div>
+    </div>
+
+    <footer>
+        <p>     
+            <a href="/index.html">Background Cheanger</a>
+            <a href="/page1.html">Color Picker</a>
+            <a href="/page2.html">Colorful Landing Page</a>
+            <a href="/page3.html">Особистий кабінет</a>
+        </p>
+    </footer>
+
+    <script src="/Js/script.js"></script>
+</body>
+</html>
